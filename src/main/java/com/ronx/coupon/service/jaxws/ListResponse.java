@@ -8,20 +8,20 @@ import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
 import javax.xml.bind.annotation.XmlType;
 
-@XmlRootElement(name = "listResponse", namespace = "http://couponws")
+@XmlRootElement(name = "listResponse", namespace = "http://service.coupon.ronx.com/")
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "listResponse", namespace = "http://couponws")
+@XmlType(name = "listResponse", namespace = "http://service.coupon.ronx.com/")
 public class ListResponse {
 
     @XmlElement(name = "return", namespace = "")
-    private List<String> _return;
+    private List<com.ronx.coupon.entity.Coupon> _return;
 
     /**
      * 
      * @return
-     *     returns List<String>
+     *     returns List<Coupon>
      */
-    public List<String> getReturn() {
+    public List<com.ronx.coupon.entity.Coupon> getReturn() {
         return this._return;
     }
 
@@ -30,7 +30,7 @@ public class ListResponse {
      * @param _return
      *     the value for the _return property
      */
-    public void setReturn(List<String> _return) {
+    public void setReturn(List<com.ronx.coupon.entity.Coupon> _return) {
         this._return = _return;
     }
 

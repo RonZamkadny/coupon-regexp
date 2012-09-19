@@ -8,4 +8,7 @@ public class Coupon {
     public Coupon(String description) {
         this.description = description;
     }
+
+    public Coupon() {
+    }
 }

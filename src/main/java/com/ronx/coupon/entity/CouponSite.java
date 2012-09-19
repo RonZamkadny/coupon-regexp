@@ -32,5 +32,6 @@ public class CouponSite {
         return couponList;
     }
 
-
+    public CouponSite() {
+    }
 }

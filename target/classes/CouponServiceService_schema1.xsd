@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xs:schema version="1.0" targetNamespace="http://service.coupon.ronx.com/" xmlns:tns="http://service.coupon.ronx.com/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:element name="list" type="tns:list"/>
+
+  <xs:element name="listResponse" type="tns:listResponse"/>
+
+  <xs:element name="setCouponSite" type="tns:setCouponSite"/>
+
+  <xs:element name="setCouponSiteResponse" type="tns:setCouponSiteResponse"/>
+
+  <xs:complexType name="list">
+    <xs:sequence/>
+  </xs:complexType>
+
+  <xs:complexType name="listResponse">
+    <xs:sequence>
+      <xs:element name="return" type="tns:coupon" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="coupon">
+    <xs:sequence/>
+  </xs:complexType>
+
+  <xs:complexType name="setCouponSite">
+    <xs:sequence>
+      <xs:element name="arg0" type="tns:couponSite" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="couponSite">
+    <xs:sequence/>
+  </xs:complexType>
+
+  <xs:complexType name="setCouponSiteResponse">
+    <xs:sequence/>
+  </xs:complexType>
+</xs:schema>
+

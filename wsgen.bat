@@ -1,1 +1,1 @@
-"c:\Program Files\Java\jdk1.7.0_03\bin\wsgen" -cp target/classes -s src/main/java -d target/classes com.ronx.coupon.service.CouponServiceImpl
+"c:\Program Files\Java\jdk1.7.0_03\bin\wsgen" -verbose -keep -cp target/classes; -s src/main/java -d target/classes com.ronx.coupon.service.CouponService -wsdl
