@@ -1,25 +1,23 @@
-import com.ronx.coupon.service.CouponService;
-import com.ronx.coupon.utility.PageScannerUtilities;
+import com.ronx.coupon.entity.Coupon;
+import com.ronx.coupon.entity.CouponSite;
+import com.ronx.coupon.utility.CouponUtilities;
+import org.apache.commons.configuration.ConfigurationException;
+import org.apache.commons.configuration.PropertiesConfiguration;
 
-import javax.xml.ws.Endpoint;
 import java.net.URL;
 import java.util.List;
-import java.util.regex.Pattern;
 
 public class Core {
 
-    public static void main(String... args) throws Exception {
+    public static void main(String[] args) {
 
-
-//        String regexpString = "class=\"bcl-title-text\">\\p{L}+</[Aa]>";
-
-//        String tokens[] = null;
-//
-//        tokens = pattern.split(page);
-
-        Pattern pokuponPattern = Pattern.compile("class=\"bcl-title-text\">.*?</[Aa]>");
-        List<String> pokuponList = PageScannerUtilities.readPage(new URL("http://www.pokupon.by"), pokuponPattern);
-
+        CouponSite pokupon = null;
+        try {
+            pokupon = new CouponSite(new PropertiesConfiguration("properties/pokupon.properties"));
+        } catch (ConfigurationException e) {
+            e.printStackTrace();
+        }
+        List<Coupon> list = pokupon.retreiveAllCoupons();
 
         return;
     }
