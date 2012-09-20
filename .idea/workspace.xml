@@ -2,14 +2,234 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b47c1ea0-1cef-474a-bb29-fe72f5b728a4" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\src\main\java\com\ronx\coupon\service\CouponServiceImpl.java" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ronx/coupon/service/CouponWebServiceInterface.java" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\src\main\java\Core.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\src\main\java\com\ronx\coupon\entity\Coupon.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\src\main\java\com\ronx\coupon\entity\CouponSite.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\src\main\java\com\ronx\coupon\factory\CouponFactory.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\src\main\java\com\ronx\coupon\factory\PokuponCouponFactory.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\src\main\java\com\ronx\coupon\service\CouponService.java" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\src\main\java\com\ronx\coupon\service\jaxws\List.java" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\src\main\java\com\ronx\coupon\service\jaxws\ListResponse.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\src\main\java\com\ronx\coupon\service\jaxws\SetCouponSite.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\src\main\java\com\ronx\coupon\service\jaxws\SetCouponSiteResponse.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\src\main\java\com\ronx\coupon\utility\ConfigurationProperties.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\src\main\java\com\ronx\coupon\utility\CouponUtilities.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\src\main\java\com\ronx\coupon\utility\PropertiesLoadUtilities.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\Core.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\CouponServiceService.wsdl" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\CouponServiceService_schema1.xsd" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\Page.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\PageScannerUtilities.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\PokuponExpressions.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\com\ronx\coupon\entity\Coupon.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\com\ronx\coupon\entity\CouponSite.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\com\ronx\coupon\factory\CouponFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\com\ronx\coupon\factory\PokuponCouponFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\com\ronx\coupon\service\CouponService.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\com\ronx\coupon\service\CouponServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\com\ronx\coupon\service\jaxws\List.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\com\ronx\coupon\service\jaxws\ListResponse.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\com\ronx\coupon\service\jaxws\SetCouponSite.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\com\ronx\coupon\service\jaxws\SetCouponSiteResponse.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\com\ronx\coupon\utility\ConfigurationProperties.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\com\ronx\coupon\utility\CouponUtilities.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\com\ronx\coupon\utility\PageScannerUtilities.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\com\ronx\coupon\utility\PropertiesLoadUtilities.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\AbstractConfiguration$1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\AbstractConfiguration$2.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\AbstractConfiguration.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\AbstractFileConfiguration.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\AbstractHierarchicalFileConfiguration$FileConfigurationDelegate.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\AbstractHierarchicalFileConfiguration.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\BaseConfiguration.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\BaseConfigurationXMLReader$SAXConverter.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\BaseConfigurationXMLReader.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\CombinedConfiguration$ConfigData.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\CombinedConfiguration.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\CompositeConfiguration.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\Configuration.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\ConfigurationBuilder.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\ConfigurationComparator.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\ConfigurationConverter.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\ConfigurationException.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\ConfigurationFactory$AdditionalConfigurationData.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\ConfigurationFactory$CallOptionalMethodRule.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\ConfigurationFactory$ConfigurationBuilder.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\ConfigurationFactory$DigesterConfigurationFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\ConfigurationFactory$FileConfigurationFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\ConfigurationFactory$JNDIConfigurationFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\ConfigurationFactory$PropertiesConfigurationFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\ConfigurationFactory$PropertyListConfigurationFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\ConfigurationFactory$SystemConfigurationFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\ConfigurationFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\ConfigurationKey$KeyIterator.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\ConfigurationKey.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\ConfigurationMap$1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\ConfigurationMap$ConfigurationSet$ConfigurationSetIterator.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\ConfigurationMap$ConfigurationSet$Entry.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\ConfigurationMap$ConfigurationSet.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\ConfigurationMap.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\ConfigurationRuntimeException.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\ConfigurationUtils$1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\ConfigurationUtils.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\ConfigurationXMLReader.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\ConversionException.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\DataConfiguration.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\DatabaseConfiguration.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\DefaultConfigurationBuilder$ConfigurationBeanFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\DefaultConfigurationBuilder$ConfigurationBuilderProvider.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\DefaultConfigurationBuilder$ConfigurationDeclaration.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\DefaultConfigurationBuilder$ConfigurationProvider.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\DefaultConfigurationBuilder$FileConfigurationProvider.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\DefaultConfigurationBuilder$FileExtensionConfigurationProvider.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\DefaultConfigurationBuilder$XMLConfigurationProvider.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\DefaultConfigurationBuilder.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\DefaultFileSystem$HttpOutputStream.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\DefaultFileSystem.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\DynamicCombinedConfiguration$1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\DynamicCombinedConfiguration$ConfigData.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\DynamicCombinedConfiguration.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\EnvironmentConfiguration.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\FileConfiguration.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\FileOptionsProvider.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\FileSystem.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\FileSystemBased.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\HierarchicalConfiguration$1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\HierarchicalConfiguration$2.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\HierarchicalConfiguration$3.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\HierarchicalConfiguration$4.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\HierarchicalConfiguration$5.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\HierarchicalConfiguration$BuilderVisitor.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\HierarchicalConfiguration$CloneVisitor.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\HierarchicalConfiguration$DefinedKeysVisitor.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\HierarchicalConfiguration$DefinedVisitor.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\HierarchicalConfiguration$Node.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\HierarchicalConfiguration$NodeVisitor.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\HierarchicalConfiguration.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\HierarchicalConfigurationConverter.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\HierarchicalConfigurationXMLReader$SAXVisitor.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\HierarchicalConfigurationXMLReader.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\HierarchicalINIConfiguration.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\HierarchicalReloadableConfiguration.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\HierarchicalXMLConfiguration.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\INIConfiguration.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\JNDIConfiguration.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\Lock.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\MapConfiguration.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\MultiFileHierarchicalConfiguration$1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\MultiFileHierarchicalConfiguration$2.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\MultiFileHierarchicalConfiguration.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\PatternSubtreeConfigurationWrapper$1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\PatternSubtreeConfigurationWrapper.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\PrefixedKeysIterator.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\PropertiesConfiguration$DefaultIOFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\PropertiesConfiguration$IOFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\PropertiesConfiguration$PropertiesReader.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\PropertiesConfiguration$PropertiesWriter.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\PropertiesConfiguration.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\PropertiesConfigurationLayout$PropertyLayoutData.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\PropertiesConfigurationLayout.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\PropertyConverter.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\StrictConfigurationComparator.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\SubnodeConfiguration.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\SubsetConfiguration$SubsetIterator.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\SubsetConfiguration.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\SystemConfiguration.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\VFSFileSystem$VFSURLStreamHandler.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\VFSFileSystem.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\VerifiableOutputStream.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\XMLConfiguration$1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\XMLConfiguration$XMLBuilderVisitor.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\XMLConfiguration$XMLFileConfigurationDelegate.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\XMLConfiguration$XMLNode.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\XMLConfiguration.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\XMLPropertiesConfiguration$1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\XMLPropertiesConfiguration$XMLPropertiesHandler.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\XMLPropertiesConfiguration.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\beanutils\BeanDeclaration.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\beanutils\BeanFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\beanutils\BeanHelper.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\beanutils\ConfigurationDynaBean.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\beanutils\ConfigurationDynaClass.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\beanutils\DefaultBeanFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\beanutils\XMLBeanDeclaration.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\event\ConfigurationErrorEvent.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\event\ConfigurationErrorListener.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\event\ConfigurationEvent.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\event\ConfigurationListener.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\event\EventSource.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\interpol\ConfigurationInterpolator.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\interpol\ConstantLookup.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\interpol\EnvironmentLookup.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\interpol\ExprLookup$Variable.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\interpol\ExprLookup$Variables.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\interpol\ExprLookup.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\plist\ParseException.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\plist\PropertyListConfiguration$1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\plist\PropertyListConfiguration$DateComponentParser.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\plist\PropertyListConfiguration$DateFieldParser.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\plist\PropertyListConfiguration$DateSeparatorParser.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\plist\PropertyListConfiguration$DateTimeZoneParser.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\plist\PropertyListConfiguration.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\plist\PropertyListParser$1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\plist\PropertyListParser$JJCalls.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\plist\PropertyListParser$LookaheadSuccess.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\plist\PropertyListParser.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\plist\PropertyListParserConstants.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\plist\PropertyListParserTokenManager.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\plist\SimpleCharStream.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\plist\Token.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\plist\TokenMgrError.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\plist\XMLPropertyListConfiguration$1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\plist\XMLPropertyListConfiguration$ArrayNode.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\plist\XMLPropertyListConfiguration$PListNode.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\plist\XMLPropertyListConfiguration$XMLPropertyListHandler.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\plist\XMLPropertyListConfiguration.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\reloading\FileChangedReloadingStrategy.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\reloading\InvariantReloadingStrategy.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\reloading\ManagedReloadingStrategy.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\reloading\ManagedReloadingStrategyMBean.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\reloading\Reloadable.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\reloading\ReloadingStrategy.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\reloading\VFSFileChangedReloadingStrategy.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\resolver\CatalogResolver$Catalog.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\resolver\CatalogResolver$CatalogManager.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\resolver\CatalogResolver.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\resolver\DefaultEntityResolver.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\resolver\EntityRegistry.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\resolver\EntityResolverSupport.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\tree\ConfigurationNode.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\tree\ConfigurationNodeVisitor.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\tree\ConfigurationNodeVisitorAdapter.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\tree\DefaultConfigurationKey$KeyIterator.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\tree\DefaultConfigurationKey.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\tree\DefaultConfigurationNode$SubNodes.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\tree\DefaultConfigurationNode.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\tree\DefaultExpressionEngine.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\tree\ExpressionEngine.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\tree\MergeCombiner.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\tree\NodeAddData.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\tree\NodeCombiner.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\tree\OverrideCombiner.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\tree\TreeUtils.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\tree\UnionCombiner.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\tree\ViewNode.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\tree\xpath\ConfigurationNodeIteratorAttribute.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\tree\xpath\ConfigurationNodeIteratorBase.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\tree\xpath\ConfigurationNodeIteratorChildren.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\tree\xpath\ConfigurationNodePointer.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\tree\xpath\ConfigurationNodePointerFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\tree\xpath\XPathExpressionEngine.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\web\AppletConfiguration.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\web\BaseWebConfiguration.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\web\ServletConfiguration.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\web\ServletContextConfiguration.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\web\ServletFilterConfiguration.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\web\ServletRequestConfiguration.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\pokupon.properties" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coupon-regexp.iml" afterPath="$PROJECT_DIR$/coupon-regexp.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Core.java" afterPath="$PROJECT_DIR$/src/main/java/Core.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ronx/coupon/entity/Coupon.java" afterPath="$PROJECT_DIR$/src/main/java/com/ronx/coupon/entity/Coupon.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ronx/coupon/entity/CouponSite.java" afterPath="$PROJECT_DIR$/src/main/java/com/ronx/coupon/entity/CouponSite.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ronx/coupon/service/CouponService.java" afterPath="$PROJECT_DIR$/src/main/java/com/ronx/coupon/service/CouponService.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wsgen.bat" afterPath="$PROJECT_DIR$/wsgen.bat" />
     </list>
     <ignored path="coupon-regexp.iws" />
@@ -28,34 +248,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <line_breakpoints>
-      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/ronx/coupon/entity/CouponSite.java" line="31" class="com.ronx.coupon.entity.CouponSite" package="com.ronx.coupon.entity">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="false" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/main/java/Core.java" line="32" class="Core" package="">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="false" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-    </line_breakpoints>
     <breakpoint_any>
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -96,84 +288,55 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Core.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Core.java">
+      <file leaf-file-name="CouponWebServiceClient.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../coupon-ws-client/src/com/ronx/coupon/service/CouponWebServiceClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="77" selection-start="950" selection-end="981" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="List.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ronx/coupon/service/jaxws/List.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="13" selection-start="431" selection-end="431" vertical-scroll-proportion="0.0">
+            <state line="11" column="0" selection-start="361" selection-end="361" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SetCouponSite.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ronx/coupon/service/jaxws/SetCouponSite.java">
+      <file leaf-file-name="CouponWebService.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/ronx/coupon/service/CouponWebService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="13" selection-start="494" selection-end="494" vertical-scroll-proportion="0.0">
+            <state line="24" column="24" selection-start="685" selection-end="685" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ListResponse.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ronx/coupon/service/jaxws/ListResponse.java">
+      <file leaf-file-name="CouponWebServiceInterface.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/ronx/coupon/service/CouponWebServiceInterface.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="60" selection-start="529" selection-end="529" vertical-scroll-proportion="0.39193085">
+            <state line="13" column="0" selection-start="265" selection-end="265" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CouponSite.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ronx/coupon/entity/CouponSite.java">
+      <file leaf-file-name="Starter.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/ronx/coupon/server/Starter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="114" selection-start="452" selection-end="452" vertical-scroll-proportion="0.0">
+            <state line="17" column="143" selection-start="535" selection-end="535" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Coupon.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ronx/coupon/entity/Coupon.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="112" selection-start="256" selection-end="256" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CouponService.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ronx/coupon/service/CouponService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="127" selection-start="866" selection-end="866" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="wsgen.bat" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="wsgen.bat" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wsgen.bat">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="115" selection-start="115" selection-end="115" vertical-scroll-proportion="0.0">
+            <state line="0" column="139" selection-start="136" selection-end="136" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="ServerController.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/ronx/coupon/server/ServerController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="85" selection-start="651" selection-end="651" vertical-scroll-proportion="0.0">
+            <state line="5" column="13" selection-start="121" selection-end="121" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -192,22 +355,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/properties/pokupon.properties" />
-        <option value="$PROJECT_DIR$/properties/slivki.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ronx/coupon/utility/PropertiesLoader.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ronx/coupon/utility/PropertiesLoadUtilities.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ronx/coupon/utility/Configurable.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ronx/coupon/factory/CouponFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ronx/coupon/factory/PokuponCouponFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ronx/coupon/utility/CouponUtilities.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ronx/coupon/utility/ConfigurationProperties.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ronx/coupon/service/CouponServiceImpl.java" />
+        <option value="$PROJECT_DIR$/coupon-ws-client/wsgen.bat" />
+        <option value="$PROJECT_DIR$/coupon-ws-client/wsimport.bat" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ronx/coupon/entity/Coupon.java" />
+        <option value="$PROJECT_DIR$/coupon-ws-client/src/com/ronx/coupon/service/CouponWebServiceClient.java" />
+        <option value="$PROJECT_DIR$/../coupon-ws-client/src/com/ronx/coupon/service/CouponWebServiceClient.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ronx/coupon/server/CouponServer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ronx/coupon/server/ServerControllerMBean.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ronx/coupon/server/ServerController.java" />
         <option value="$PROJECT_DIR$/src/main/java/Core.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ronx/coupon/service/CouponService.java" />
+        <option value="$PROJECT_DIR$/src/Starter.java" />
+        <option value="$PROJECT_DIR$/src/com/ronx/coupon/server/Starter.java" />
+        <option value="$PROJECT_DIR$/src/com/ronx/coupon/service/CouponService.java" />
         <option value="$PROJECT_DIR$/wsgen.bat" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ronx/coupon/entity/Coupon.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ronx/coupon/entity/CouponSite.java" />
+        <option value="$PROJECT_DIR$/src/com/ronx/coupon/service/CouponWebServiceInterface.java" />
+        <option value="$PROJECT_DIR$/src/com/ronx/coupon/service/CouponWebService.java" />
       </list>
     </option>
   </component>
@@ -240,6 +403,10 @@
           <option name="myItemId" value="Dependencies" />
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$DependenciesNode" />
         </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="commons-configuration:commons-configuration:1.8" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$DependencyNode" />
+        </PATH_ELEMENT>
       </PATH>
       <PATH>
         <PATH_ELEMENT>
@@ -261,7 +428,7 @@
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="height" value="784" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -278,6 +445,11 @@
   <component name="ProjectReloadState">
     <option name="STATE" value="0" />
   </component>
+  <component name="ProjectStructureProblems">
+    <ignored-problems>
+      <problem id="invalid-module-dependency(module:coupon-regexp,commons-configuration-1.8)" />
+    </ignored-problems>
+  </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
       <flattenPackages />
@@ -291,6 +463,16 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -308,6 +490,12 @@
               <option name="myItemId" value="coupon-regexp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="coupon-regexp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="coupon-regexp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
@@ -327,11 +515,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
+              <option name="myItemId" value="META-INF" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -346,24 +530,12 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="coupon" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="utility" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -376,14 +548,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -406,14 +570,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -443,75 +599,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="coupon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="coupon-regexp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="coupon-regexp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="coupon" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="factory" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="coupon-regexp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="coupon-regexp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="coupon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="entity" />
+              <option name="myItemId" value="server" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -529,14 +621,18 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scope">
-        <subPane subId="Project Files">
           <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
+            <PATH_ELEMENT>
+              <option name="myItemId" value="coupon-regexp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="coupon-regexp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -548,10 +644,6 @@
               <option name="myItemId" value="coupon-regexp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="coupon-regexp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -559,13 +651,13 @@
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="OverrideImplement.combined" value="true" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="options.lastSelected" value="reference.settings.project.maven.runner" />
+    <property name="options.lastSelected" value="reference.plugin.settings.project.settings.cfml" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
@@ -577,17 +669,54 @@
     <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\coupon-ws-client" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\src" />
       <recent name="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\properties" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.ronx.coupon" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Core">
-    <configuration default="false" name="Core" type="Application" factoryName="Application" temporary="true">
+  <component name="RunManager" selected="Application.Starter">
+    <configuration default="false" name="Starter" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="Core" />
+      <option name="MAIN_CLASS_NAME" value="com.ronx.coupon.server.Starter" />
+      <option name="VM_PARAMETERS" value="-Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=8085 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="coupon-regexp" />
+      <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method>
+        <option name="BuildArtifacts" enabled="false">
+          <artifact name="coupon-regexp:jar" />
+        </option>
+        <option name="Make" enabled="false" />
+      </method>
+    </configuration>
+    <configuration default="false" name="CouponWebServiceClient" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.ronx.coupon.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.ronx.coupon.service.CouponWebServiceClient" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -596,7 +725,7 @@
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="coupon-regexp" />
+      <module name="coupon-ws-client" />
       <envs />
       <RunnerSettings RunnerId="Debug">
         <option name="DEBUG_PORT" value="" />
@@ -824,9 +953,10 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <list size="2">
-      <item index="0" class="java.lang.String" itemvalue="Application.Core" />
-      <item index="1" class="java.lang.String" itemvalue="Maven.coupon-regexp [compile]" />
+    <list size="3">
+      <item index="0" class="java.lang.String" itemvalue="Application.Starter" />
+      <item index="1" class="java.lang.String" itemvalue="Application.CouponWebServiceClient" />
+      <item index="2" class="java.lang.String" itemvalue="Maven.coupon-regexp [compile]" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -867,30 +997,30 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39794168" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3964687" sideWeight="0.4969651" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3964687" sideWeight="0.49772382" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32761577" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32744783" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15629742" sideWeight="0.6723842" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15585384" sideWeight="0.6723842" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16388467" sideWeight="0.6723842" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32761577" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16388467" sideWeight="0.67255217" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32744783" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32933104" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905295" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -989,96 +1119,76 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ronx/coupon/utility/ConfigurationProperties.java">
+    <entry file="file://$PROJECT_DIR$/../coupon-ws-client/com/ronx/coupon/service/Coupon.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="40" selection-start="183" selection-end="198" vertical-scroll-proportion="0.15232974" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/properties/pokupon.properties">
+    <entry file="file://$PROJECT_DIR$/../coupon-ws-client/src/com/ronx/coupon/service/Coupon.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="15" vertical-scroll-proportion="0.0" />
+        <state line="28" column="13" selection-start="686" selection-end="686" vertical-scroll-proportion="0.56852794" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ronx/coupon/factory/CouponFactory.java">
+    <entry file="file://$PROJECT_DIR$/../coupon-ws-client/src/com/ronx/coupon/service/ConcreteCouponDescResponse.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="148" selection-end="148" vertical-scroll-proportion="0.3220859" />
+        <state line="32" column="13" selection-start="923" selection-end="923" vertical-scroll-proportion="0.33248731" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ronx/coupon/utility/CouponUtilities.java">
+    <entry file="file://$PROJECT_DIR$/../coupon-ws-client/src/com/ronx/coupon/service/ConcreteCouponDesc.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="40" selection-start="914" selection-end="914" vertical-scroll-proportion="0.63978493">
-          <folding />
-        </state>
+        <state line="31" column="13" selection-start="848" selection-end="848" vertical-scroll-proportion="0.33248731" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ronx/coupon/service/jaxws/SetCouponSiteResponse.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_03/src.zip!/java/util/concurrent/ScheduledThreadPoolExecutor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="13" selection-start="465" selection-end="465" vertical-scroll-proportion="0.2437276">
-          <folding />
-        </state>
+        <state line="118" column="13" selection-start="4148" selection-end="4148" vertical-scroll-proportion="-4.3442907" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_03/src.zip!/java/util/concurrent/ThreadPoolExecutor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="85" selection-start="651" selection-end="651" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="885" column="20" selection-start="34238" selection-end="34238" vertical-scroll-proportion="-0.21390374" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ronx/coupon/service/CouponService.java">
+    <entry file="file://$PROJECT_DIR$/src/META-INF/MANIFEST.MF">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="127" selection-start="866" selection-end="866" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ronx/coupon/server/CouponServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="13" selection-start="95" selection-end="95" vertical-scroll-proportion="0.11371238" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../coupon-ws-client/src/com/ronx/coupon/service/CouponWebServiceClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="0" selection-start="361" selection-end="361" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ronx/coupon/service/CouponWebService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="24" selection-start="685" selection-end="685" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ronx/coupon/service/CouponWebServiceInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="0" selection-start="265" selection-end="265" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ronx/coupon/server/ServerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="13" selection-start="121" selection-end="121" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ronx/coupon/server/Starter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="143" selection-start="535" selection-end="535" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wsgen.bat">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="115" selection-start="115" selection-end="115" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ronx/coupon/entity/Coupon.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="112" selection-start="256" selection-end="256" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ronx/coupon/entity/CouponSite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="114" selection-start="452" selection-end="452" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Core.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="77" selection-start="950" selection-end="981" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ronx/coupon/service/jaxws/SetCouponSite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="13" selection-start="494" selection-end="494" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ronx/coupon/service/jaxws/List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="13" selection-start="431" selection-end="431" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ronx/coupon/service/jaxws/ListResponse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="60" selection-start="529" selection-end="529" vertical-scroll-proportion="0.39193085">
+        <state line="0" column="139" selection-start="136" selection-end="136" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1089,10 +1199,12 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+          <last-edited>coupon-regexp:jar</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -1112,6 +1224,7 @@
       </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
+          <last-edited>commons-configuration-1.8</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1140,7 +1253,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -1159,7 +1271,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Maven: commons-configuration:commons-configuration:1.8</last-edited>
+          <last-edited>commons-lang-2.6</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

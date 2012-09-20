@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xs:schema version="1.0" targetNamespace="http://service.coupon.ronx.com/" xmlns:tns="http://service.coupon.ronx.com/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:element name="couponList" type="tns:couponList"/>
+
+  <xs:element name="couponListResponse" type="tns:couponListResponse"/>
+
+  <xs:complexType name="couponList">
+    <xs:sequence/>
+  </xs:complexType>
+
+  <xs:complexType name="couponListResponse">
+    <xs:sequence>
+      <xs:element name="return" type="tns:coupon" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="coupon">
+    <xs:sequence/>
+  </xs:complexType>
+</xs:schema>
+

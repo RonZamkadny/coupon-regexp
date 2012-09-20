@@ -1,0 +1,1 @@
+"c:\Program Files\Java\jdk1.7.0_03\bin\wsimport" -verbose -keep http://localhost:8888/WS/coupon?wsdl

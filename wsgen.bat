@@ -1,1 +1,1 @@
-"c:\Program Files\Java\jdk1.7.0_03\bin\wsgen" -verbose -keep -cp target/classes; -s src/main/java -d target/classes com.ronx.coupon.service.CouponService -wsdl
+"c:\Program Files\Java\jdk1.7.0_03\bin\wsgen" -verbose -keep -cp out -s src -d out -r out com.ronx.coupon.service.CouponWebService -wsdl
