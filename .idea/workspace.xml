@@ -1,22 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="coupon-ws" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="b47c1ea0-1cef-474a-bb29-fe72f5b728a4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ronx/coupon/service/CouponWebServiceInterface.java" />
-      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\src\main\java\Core.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\src\main\java\com\ronx\coupon\entity\Coupon.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\src\main\java\com\ronx\coupon\entity\CouponSite.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\src\main\java\com\ronx\coupon\factory\CouponFactory.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\src\main\java\com\ronx\coupon\factory\PokuponCouponFactory.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\src\main\java\com\ronx\coupon\service\CouponService.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\src\main\java\com\ronx\coupon\service\jaxws\List.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\src\main\java\com\ronx\coupon\service\jaxws\ListResponse.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\src\main\java\com\ronx\coupon\service\jaxws\SetCouponSite.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\src\main\java\com\ronx\coupon\service\jaxws\SetCouponSiteResponse.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\src\main\java\com\ronx\coupon\utility\ConfigurationProperties.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\src\main\java\com\ronx\coupon\utility\CouponUtilities.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\src\main\java\com\ronx\coupon\utility\PropertiesLoadUtilities.java" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ronx/coupon/server/CouponWebServiceClient.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wsimport.bat" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\coupon-ws-client\coupon-ws-client.iml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\coupon-ws-client\src\com\ronx\coupon\service\CouponWebServiceClient.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\coupon-ws-client\wsimport.bat" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\Core.class" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\CouponServiceService.wsdl" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\CouponServiceService_schema1.xsd" afterPath="" />
@@ -230,7 +225,7 @@
       <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\org\apache\commons\configuration\web\ServletRequestConfiguration.class" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\target\classes\pokupon.properties" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coupon-regexp.iml" afterPath="$PROJECT_DIR$/coupon-regexp.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wsgen.bat" afterPath="$PROJECT_DIR$/wsgen.bat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ronx/coupon/service/CouponWebService.java" afterPath="$PROJECT_DIR$/src/com/ronx/coupon/service/CouponWebService.java" />
     </list>
     <ignored path="coupon-regexp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -288,29 +283,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="CouponWebServiceClient.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../coupon-ws-client/src/com/ronx/coupon/service/CouponWebServiceClient.java">
+      <file leaf-file-name="CouponWebServiceClient.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/ronx/coupon/server/CouponWebServiceClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="0" selection-start="361" selection-end="361" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CouponWebService.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/ronx/coupon/service/CouponWebService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="24" selection-start="685" selection-end="685" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CouponWebServiceInterface.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/ronx/coupon/service/CouponWebServiceInterface.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="0" selection-start="265" selection-end="265" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="19" column="0" selection-start="572" selection-end="572" vertical-scroll-proportion="0.5609137">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -318,25 +297,36 @@
       <file leaf-file-name="Starter.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/ronx/coupon/server/Starter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="143" selection-start="535" selection-end="535" vertical-scroll-proportion="0.0">
+            <state line="24" column="50" selection-start="810" selection-end="810" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CouponWebService.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/ronx/coupon/service/CouponWebService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="40" column="0" selection-start="869" selection-end="869" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="wsgen.bat" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="wsgen.bat" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wsgen.bat">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="139" selection-start="136" selection-end="136" vertical-scroll-proportion="0.0">
+            <state line="0" column="50" selection-start="50" selection-end="50" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ServerController.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/ronx/coupon/server/ServerController.java">
+      <file leaf-file-name="wsimport.bat" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wsimport.bat">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="13" selection-start="121" selection-end="121" vertical-scroll-proportion="0.0">
+            <state line="0" column="83" selection-start="83" selection-end="83" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -355,9 +345,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/coupon-ws-client/wsgen.bat" />
-        <option value="$PROJECT_DIR$/coupon-ws-client/wsimport.bat" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ronx/coupon/entity/Coupon.java" />
         <option value="$PROJECT_DIR$/coupon-ws-client/src/com/ronx/coupon/service/CouponWebServiceClient.java" />
         <option value="$PROJECT_DIR$/../coupon-ws-client/src/com/ronx/coupon/service/CouponWebServiceClient.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ronx/coupon/server/CouponServer.java" />
@@ -370,7 +357,10 @@
         <option value="$PROJECT_DIR$/src/com/ronx/coupon/service/CouponService.java" />
         <option value="$PROJECT_DIR$/wsgen.bat" />
         <option value="$PROJECT_DIR$/src/com/ronx/coupon/service/CouponWebServiceInterface.java" />
+        <option value="$PROJECT_DIR$/../coupon-ws-client/wsimport.bat" />
         <option value="$PROJECT_DIR$/src/com/ronx/coupon/service/CouponWebService.java" />
+        <option value="$PROJECT_DIR$/wsimport.bat" />
+        <option value="$PROJECT_DIR$/src/com/ronx/coupon/server/CouponWebServiceClient.java" />
       </list>
     </option>
   </component>
@@ -463,28 +453,8 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="coupon-regexp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-          </PATH>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="coupon-regexp" />
@@ -516,6 +486,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="META-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="coupon-regexp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="coupon-regexp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="generated" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -617,7 +605,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="properties" />
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="coupon" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="entity" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -647,40 +643,61 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="GenerateAntBuildDialog.generateIdeaHomeProperty" value="false" />
     <property name="project.structure.last.edited" value="Artifacts" />
-    <property name="OverrideImplement.combined" value="true" />
     <property name="project.structure.proportion" value="0.15" />
+    <property name="OverrideImplement.combined" value="true" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="MemberChooser.sorted" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="options.lastSelected" value="reference.plugin.settings.project.settings.cfml" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="GenerateAntBuildDialog.generateSingleFile" value="true" />
+    <property name="GenerateAntBuildDialog.inclineRuntiemClasspath" value="true" />
+    <property name="GenerateAntBuildDialog.outputFileNameProperty" value="coupon-regexp" />
+    <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="dynamic.classpath" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="Downloaded.Files.Path" value="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\lib" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="options.lastSelected" value="reference.plugin.settings.project.settings.cfml" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="GenerateAntBuildDialog.backupFiles" value="true" />
+    <property name="dynamic.classpath" value="false" />
     <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\coupon-ws-client" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\src" />
-      <recent name="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\properties" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.ronx.coupon" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp" />
+      <recent name="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\src" />
+      <recent name="C:\Users\ron.x.by.su\IdeaProjects\coupon-regexp\properties" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.Starter">
+  <component name="RunManager" selected="Application.CouponWebServiceClient">
     <configuration default="false" name="Starter" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="com.ronx.coupon.server.Starter" />
@@ -703,9 +720,6 @@
       <ConfigurationWrapper RunnerId="Debug" />
       <ConfigurationWrapper RunnerId="Run" />
       <method>
-        <option name="BuildArtifacts" enabled="false">
-          <artifact name="coupon-regexp:jar" />
-        </option>
         <option name="Make" enabled="false" />
       </method>
     </configuration>
@@ -716,7 +730,7 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.ronx.coupon.service.CouponWebServiceClient" />
+      <option name="MAIN_CLASS_NAME" value="com.ronx.coupon.server.CouponWebServiceClient" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -725,7 +739,7 @@
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="coupon-ws-client" />
+      <module name="coupon-regexp" />
       <envs />
       <RunnerSettings RunnerId="Debug">
         <option name="DEBUG_PORT" value="" />
@@ -829,24 +843,6 @@
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method>
-        <option name="AntTarget" enabled="false" />
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Make" enabled="true" />
-        <option name="Maven.BeforeRunTask" enabled="false" />
-      </method>
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -873,6 +869,24 @@
       <envs />
       <properties />
       <listeners />
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method>
         <option name="AntTarget" enabled="false" />
         <option name="BuildArtifacts" enabled="false" />
@@ -998,12 +1012,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32744783" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3964687" sideWeight="0.4969651" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1014,13 +1029,12 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32744783" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15585384" sideWeight="0.6723842" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1555387" sideWeight="0.67255217" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16388467" sideWeight="0.67255217" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32744783" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32744783" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905295" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1119,21 +1133,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../coupon-ws-client/com/ronx/coupon/service/Coupon.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../coupon-ws-client/src/com/ronx/coupon/service/Coupon.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="13" selection-start="686" selection-end="686" vertical-scroll-proportion="0.56852794" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../coupon-ws-client/src/com/ronx/coupon/service/ConcreteCouponDescResponse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="13" selection-start="923" selection-end="923" vertical-scroll-proportion="0.33248731" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../coupon-ws-client/src/com/ronx/coupon/service/ConcreteCouponDesc.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="31" column="13" selection-start="848" selection-end="848" vertical-scroll-proportion="0.33248731" />
@@ -1149,47 +1148,94 @@
         <state line="885" column="20" selection-start="34238" selection-end="34238" vertical-scroll-proportion="-0.21390374" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/META-INF/MANIFEST.MF">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ronx/coupon/server/CouponServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="13" selection-start="95" selection-end="95" vertical-scroll-proportion="0.11371238" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../coupon-ws-client/src/com/ronx/coupon/service/CouponWebServiceClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="361" selection-end="361" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ronx/coupon/service/CouponWebService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="24" selection-start="685" selection-end="685" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/ronx/coupon/service/CouponWebServiceInterface.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="0" selection-start="265" selection-end="265" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/META-INF/MANIFEST.MF">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ronx/coupon/service/jaxws/CouponList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="13" selection-start="443" selection-end="443" vertical-scroll-proportion="0.36363637">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ronx/coupon/server/CouponServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="11" selection-start="163" selection-end="163" vertical-scroll-proportion="0.3181818">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/ronx/coupon/server/ServerController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="13" selection-start="121" selection-end="121" vertical-scroll-proportion="0.0" />
+        <state line="9" column="11" selection-start="220" selection-end="220" vertical-scroll-proportion="0.33248731">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/ronx/coupon/server/Starter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="143" selection-start="535" selection-end="535" vertical-scroll-proportion="0.0">
+        <state line="24" column="50" selection-start="810" selection-end="810" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ronx/coupon/service/CouponWebService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="0" selection-start="869" selection-end="869" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wsgen.bat">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="139" selection-start="136" selection-end="136" vertical-scroll-proportion="0.0">
+        <state line="0" column="50" selection-start="50" selection-end="50" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wsimport.bat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="83" selection-start="83" selection-end="83" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/generated/CouponWebService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="17" selection-start="541" selection-end="541" vertical-scroll-proportion="0.3380531">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/generated/CouponWebService_Service.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="70" column="19" selection-start="2192" selection-end="2192" vertical-scroll-proportion="0.33274338">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ronx/coupon/server/CouponWebServiceClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="0" selection-start="572" selection-end="572" vertical-scroll-proportion="0.5609137">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1198,8 +1244,15 @@
     <states>
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
-          <artifact-editor />
-          <last-edited>coupon-regexp:jar</last-edited>
+          <artifact-editor>
+            <show-content>
+              <type id="javaee-facet-resources" />
+              <type id="artifact" />
+              <type id="library" />
+              <type id="jpa-descriptors" />
+            </show-content>
+          </artifact-editor>
+          <last-edited>coupon-ws</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1271,7 +1324,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>commons-lang-2.6</last-edited>
+          <last-edited>commons-logging-1.1.1</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

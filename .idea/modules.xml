@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/coupon-regexp.iml" filepath="$PROJECT_DIR$/coupon-regexp.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../coupon-ws-client/coupon-ws-client.iml" filepath="$PROJECT_DIR$/../coupon-ws-client/coupon-ws-client.iml" />
     </modules>
   </component>
 </project>
