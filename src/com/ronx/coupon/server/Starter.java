@@ -25,7 +25,7 @@ public class Starter {
         CouponWebService couponService = new CouponWebService();
         couponService.setCouponSite(pokupon);
 
-        int pocessorsNum = Runtime.getRuntime().availableProcessors()
+        int pocessorsNum = Runtime.getRuntime().availableProcessors();
 
         ThreadPoolExecutor executor = new ThreadPoolExecutor(pocessorsNum, 5, 10L, TimeUnit.NANOSECONDS, new SynchronousQueue< Runnable >());
         CouponServer server;
