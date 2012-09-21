@@ -27,7 +27,9 @@ public class Starter {
 
         int pocessorsNum = Runtime.getRuntime().availableProcessors();
 
-        ThreadPoolExecutor executor = new ThreadPoolExecutor(pocessorsNum, 5, 10L, TimeUnit.NANOSECONDS, new SynchronousQueue< Runnable >());
+        ThreadPoolExecutor executor = new ThreadPoolExecutor(
+            pocessorsNum, 5, 10L, TimeUnit.NANOSECONDS, new ArrayBlockingQueue<Runnable>(5, true), new ThreadPoolExecutor.CallerRunsPolicy()
+        );
         CouponServer server;
         {
             server = new CouponServer(executor);
