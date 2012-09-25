@@ -5,6 +5,7 @@ import com.ronx.coupon.entity.Coupon;
 import com.ronx.coupon.entity.CouponSite;
 
 
+import javax.jws.HandlerChain;
 import javax.jws.WebMethod;
 import javax.jws.WebService;
 import java.util.LinkedList;
@@ -17,6 +18,7 @@ import java.util.List;
         endpointInterface = "com.ronx.coupon.service.CouponWebServiceInterface"
 //        targetNamespace = "http://couponws"
 )
+@HandlerChain(file = "handler-chain.xml")
 public class CouponWebService implements CouponWebServiceInterface {
 
 
